@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header img {
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav a {
+    color: black;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+nav a:hover{
+    color:red;
+
+}
+
+.hero {
+    position: relative;
+    height: 46vh; /* Высота hero-секции на весь экран */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    overflow: hidden; /* Убедитесь, что изображение не выходит за пределы */
+}
+
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+.content h2{
+    color: black;
+    text-align: center;
+}
+
+.content button {
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 2s color 2s;
+}
+.content button:hover{
+    color: white;
+    background-color: red;
+}
+
+.fact {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
